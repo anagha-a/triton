@@ -9199,9 +9199,10 @@ textarea.form-control-lg {
     color: #fff !important; }
 
 .site-nav {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-bottom: 20px;
-  position: absolute;
+  position: fixed;
+
   top: 0;
   z-index: 9;
   width: 100%; }
@@ -9425,7 +9426,7 @@ textarea.form-control-lg {
       display: block; }
       .site-mobile-menu .site-nav-wrap li.active > a {
         color: #00204a; }
-    .site-mobile-menu .site-nav-wrap .arrow-collapse {
+    /* .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
       top: 0px;
@@ -9453,7 +9454,7 @@ textarea.form-control-lg {
       .site-mobile-menu .site-nav-wrap .arrow-collapse.collapsed:before {
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
+        transform: translate(-50%, -50%); } */
     .site-mobile-menu .site-nav-wrap > li {
       display: block;
       position: relative;
@@ -9690,7 +9691,7 @@ textarea {
     z-index: 2; }
   .hero .heading {
     color: #fff;
-    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    font-size: 40px;
     margin-bottom: 30px;
     font-weight: 600; }
   .hero .lead {
@@ -10321,11 +10322,23 @@ nav[aria-label="breadcrumb"] li:before {
   margin-bottom: 0;
   font-size: 14px; }
 
+
+  .widget-i {
+    color: #fff; /* Icon color */
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 16px; /* Icon size */
+    vertical-align: middle; /* Align the icon with the text */
+}
+
+.widget address, .widget a {
+    display: flex;
+    align-items: center;
+}
 .site-footer {
-  background: #efefef;
+  background: #005555;;
   font-size: 14px;
-  color: #888;
-  padding: 70px 0; }
+  color: #fff;
+  padding: 20px 0; }
   .site-footer a {
     color: #777;
     position: relative;
@@ -10380,4 +10393,5 @@ nav[aria-label="breadcrumb"] li:before {
           height: auto;
           display: block;
         }
+      
         
